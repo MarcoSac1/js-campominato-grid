@@ -10,7 +10,7 @@ L'utente clicca su un bottone che genererà una griglia di gioco quadrata. Ogni 
         - aggiungo una classe al elemento creato
         - lo stampo nel 'DOM' 
     - aggiungo un eventlistener sul elemento appena creato per stilizarlo solo quando viene clickato
-    - faccio un console.log per stampare il numero che corrisponde alla cella clickata
+    - faccio un console.log per stampare il numero che corrisponde alla cella cliccata
 -->
 
 

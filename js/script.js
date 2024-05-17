@@ -12,7 +12,8 @@ for (let index = 0; index < 100; index++) {
     squareEl.append(index + 1)
     squareEl.addEventListener('click', function(){
         squareEl.classList.add('active');
-        
+        // faccio un console.log per stampare il numero che corrisponde alla cella cliccata
+        console.log(index + 1);
     });
     
     // lo stampo nel 'DOM'
