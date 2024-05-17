@@ -8,6 +8,18 @@ body{
     flex-wrap: wrap;
     width: 1000px;
     height: 1000px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     margin: 0 auto;
+}
+
+
+section.container > article.box{
+    width: calc((100% / 10) - 4px);
+    height: calc((100% / 10) - 4px);
+    border: 2px solid green;
+}
+
+
+.box{
+    
 }
