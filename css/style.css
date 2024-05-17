@@ -1,0 +1,12 @@
+body{
+    background-color: goldenrod;
+    justify-content: center;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 1000px;
+}
