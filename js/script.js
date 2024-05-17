@@ -9,7 +9,12 @@ for (let index = 0; index < 100; index++) {
     const squareEl = document.createElement('article');
     // aggiungo una classe a squareEl
     squareEl.classList.add('box');
+    squareEl.append(index + 1)
+    squareEl.addEventListener('click', function(){
+        squareEl.classList.add('active');
+        
+    });
+    
     // lo stampo nel 'DOM'
     gridContainer.appendChild(squareEl);
-    
 }
