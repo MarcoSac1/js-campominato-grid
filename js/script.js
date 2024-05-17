@@ -9,7 +9,7 @@ for (let index = 0; index < 100; index++) {
     const squareEl = document.createElement('article');
     // aggiungo una classe a squareEl
     squareEl.classList.add('box');
-    squareEl.append(index + 1)
+    squareEl.append(index + 1);
     squareEl.addEventListener('click', function(){
         squareEl.classList.add('active');
         // faccio un console.log per stampare il numero che corrisponde alla cella cliccata
