@@ -3,6 +3,24 @@
 const gridContainer = document.querySelector('section.container');
 // console.log(gridContainer);
 
+const startGame = document.getElementsByClassName('start');
+
+startGame.addEventListener('click', function() {
+
+    let levelChoiseEl = document.getElementsByClassName('select_level');
+    let level = levelChoiseEl.value;
+
+    let numberOfCell;
+    if(level === 'hard'){
+        numberOfCell = 49;
+    }else if(level === 'medium'){
+        numberOfCell = 81;
+    }else{
+        numberOfCell = 100;
+    }
+    
+})
+
 // creo un ciclo 'for' per inserire 100 elementi al interno del container
 for (let index = 0; index < 100; index++) {
     // creo un elemento 
@@ -19,3 +37,5 @@ for (let index = 0; index < 100; index++) {
     // lo stampo nel 'DOM'
     gridContainer.appendChild(squareEl);
 }
+
+

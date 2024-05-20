@@ -32,6 +32,13 @@ header{
     margin: 1rem;
 }
 
+.select_level{
+    color: green;
+    padding:.5rem 1.5rem;
+    border: none;
+    border-radius: .5rem;
+}
+
 h1{
     padding: 2rem;
 }
