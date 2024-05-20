@@ -73,6 +73,25 @@ section.container > article.box{
     align-items: center;
 }
 
+section.container > article.box.medium{
+    width: calc((100% / 9) - 4px);
+    height: calc((100% / 9) - 4px);
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.container > article.box.hard{
+    width: calc((100% / 7) - 4px);
+    height: calc((100% / 7) - 4px);
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 section.container > .active{
     background-color: blueviolet;
 }
